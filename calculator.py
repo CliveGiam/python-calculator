@@ -17,3 +17,9 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def power(a, b):
+    """Return the result of a number raised to the power of another number."""
+    if a == 0:
+        raise ValueError("Result undefined")
+    return a ** b
